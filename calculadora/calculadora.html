@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedorGeneral">
+        <div class="contenedor">
+                <form action="">
+                    <input type="text" id="sumaNumero1">
+                    <p>+</p>
+                    <input type="text" id="sumaNumero2">
+                    <p>=</p>
+                    <input type="text" id="sumaResultado" readonly>
+                    <input type="button" onclick="suma()" value="Resultado" class="btn">
+                </form>
+        </div>
+        <div class="contenedor">
+                <form action="">
+                    <input type="text" id="restaNumero1">
+                    <p>-</p>
+                    <input type="text" id="restaNumero2">
+                    <p>=</p>
+                    <input type="text" id="restaResultado" readonly>
+                    <input type="button" onclick="resta()" value="Resultado" class="btn">
+                </form>
+        </div>
+        <div class="contenedor">
+                <form action="">
+                    <input type="text" id="multiploNumero1">
+                    <p>*</p>
+                    <input type="text" id="multiploNumero2">
+                    <p>=</p>
+                    <input type="text" id="multiploResultado" readonly>
+                    <input type="button" onclick="multiplicar()" value="Resultado" class="btn">
+                </form>
+        </div>
+        <div class="contenedor">
+                <form action="">
+                    <input type="text" id="divisionNumero1">
+                    <p>/</p>
+                    <input type="text" id="divisionNumero2">
+                    <p>=</p>
+                    <input type="text" id="divisionResultado" readonly>
+                    <input type="button" onclick="division()" value="Resultado" class="btn">
+                </form>
+        </div>
+    </div>
+<script src="calculadora.js"></script>
+    
+</body>
+</html>
